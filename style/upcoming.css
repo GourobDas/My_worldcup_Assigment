@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+
+
+}
+
+:root {
+    --primaryFont: font-family: 'Roboto Mono', monospace;
+}
+
+/* body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto;
+    background-color: white;
+
+} */
+
+/**** Header Style *******/
+.container {
+    grid-column: 1/ -1;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+
+}
+
+.header {
+    display: flex;
+
+
+}
+
+.headers-text {
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.header-text {
+
+    font-style: var(--primaryFont);
+    color: azure;
+
+}
+
+.headerh1 {
+    font-size: 60px;
+}
+
+.header-p {
+    font-size: medium;
+    font-style: italic;
+}
+
+
+
+.first-text {
+    text-align: center;
+    color: white;
+
+}
+
+.hader-button {
+    padding-top: 40px;
+}
+
+
+
+.button {
+    height: 50px;
+    width: 300px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Darker background on mouse-over */
+.button:hover {
+    background-color: yellowgreen;
+}
+
+
+
+.header-image>img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/***** Header End *******/
+
+
+/* Body  */
+/*  */
+.body-sec {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    padding-top: 20px;
+
+}
+
+/**** siedbar *****/
+
+.siedbar {
+
+    background-color: rgb(65, 6, 52);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    font-style: var(--primaryFont);
+
+}
+
+.buttonA {
+    font-size: 20px;
+    margin: 20px;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    border-radius: 5px;
+
+
+}
+
+#buttonID {
+    background-color: orangered;
+
+}
+
+#buttonID:hover {
+    background-color: rgb(203, 236, 136);
+}
+
+.siedbar .buttonA a {
+    text-decoration: none;
+}
+
+/******** Body-Sec ******/
+
+.contrnt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+article {
+    border: 1px solid lightcyan;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.blog {
+    height: 200px;
+}
+
+.rap-content {
+    display: flex;
+    gap: 30px;
+
+}
+
+.blog-text {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/***** FOOTER***** */
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+}
+
+.footerr-rap {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 50px;
+    color: cornsilk;
+    padding-left: 300px;
+}
+
+.footerh1 {
+    padding-top: 50px;
+    color: cornsilk;
+    text-align: center;
+}
+
+.new1 {
+    border: 1px solid cornsilk;
+    margin: 80px;
+
+}
