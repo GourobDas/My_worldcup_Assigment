@@ -216,7 +216,7 @@ footer {
 /* Responsive */
 
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     .container {
         width: 100%;
         display: flex;
@@ -240,4 +240,4 @@ footer {
         display: flex;
         flex-direction: column;
     }
-}
+} */
